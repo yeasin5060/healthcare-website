@@ -1,0 +1,48 @@
+#header{
+    padding: 20px 0 17px 0;
+    background: #fff;
+}
+.header_box_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 176px;
+}
+.header_logo_box{
+    width: 207px;
+    height: 29px;
+    overflow: hidden;
+}
+.header_logo_box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header_contact_service_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 21px;
+}
+.header_icon_contact_flex{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    column-gap: 3px;
+}
+.header_icon{
+    font-size: 26px;
+    font-weight: 600;
+    color: #159EEC;
+}
+.header_contact_box_head{
+    font-size: 16px;
+    font-weight: 600;
+    color: #1F2B6C;
+    text-transform: uppercase;
+}
+.header_contact_box_number{
+    font-size: 16px;
+    font-weight: 600;
+    color: #159EEC;
+}
