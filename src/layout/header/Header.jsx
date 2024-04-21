@@ -1,10 +1,10 @@
 import React from 'react'
 import './Header.css'
-import Miniheading from '../../utilities/miniheading/Miniheading'
 import { FaPhoneVolume } from "react-icons/fa6";
 import { FiClock } from "react-icons/fi";
 import { IoLocationOutline } from "react-icons/io5";
 import meddicallogo from '../../images/Meddicallogo.png'
+import Nanoheading from '../../utilities/nanohead/Nanoheading';
 const Header = () => {
   return (
     <section id='header'>
@@ -19,7 +19,7 @@ const Header = () => {
                             <FaPhoneVolume className='header_icon' />
                         </div>
                         <div className='header_contact_box'>
-                            <Miniheading text="Emergency" style="header_contact_box_head"/>
+                            <Nanoheading text="Emergency" style="header_contact_box_head"/>
                             <span className='header_contact_box_number'>(237) 681-812-255</span>
                         </div>
                     </div>
@@ -28,7 +28,7 @@ const Header = () => {
                             <FiClock className='header_icon' />
                         </div>
                         <div className='header_contact_box'>
-                            <Miniheading text="Work Hour" style="header_contact_box_head"/>
+                            <Nanoheading text="Work Hour" style="header_contact_box_head"/>
                             <span className='header_contact_box_number'>09:00 - 20:00 Everyday</span>
                         </div>
                     </div>
@@ -37,7 +37,7 @@ const Header = () => {
                             <IoLocationOutline className='header_icon' />
                         </div>
                         <div className='header_contact_box'>
-                            <Miniheading text="Location" style="header_contact_box_head"/>
+                            <Nanoheading text="Location" style="header_contact_box_head"/>
                             <span className='header_contact_box_number'>0123 Some Place</span>
                         </div>
                     </div>
