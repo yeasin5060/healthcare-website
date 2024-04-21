@@ -1,8 +1,11 @@
 import React from 'react'
+import Banar from './banar/Banar'
 
 const Homepage = () => {
   return (
-    <div>Homepage</div>
+   <>
+      <Banar/>
+   </>
   )
 }
 
