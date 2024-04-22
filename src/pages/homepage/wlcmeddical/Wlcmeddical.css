@@ -1,0 +1,58 @@
+#wlcmeddical{
+    padding-top: 64px;
+}
+.wlcmeddical_contant_wrapper{
+    width: 658px;
+    margin: 0 auto;
+    text-align: center;
+}
+.wlcmeddical_contant_nanohead{
+    font-size: 22px;
+    font-weight: 600;
+    color: #159EEC;
+    text-transform: uppercase;
+    list-style: 140%;
+    margin-bottom: 8px;
+}
+.wlcmeddical_contant_head{
+    font-size: 32px;
+    font-weight: 600;
+    color: #1F2B6C;
+    text-transform: uppercase;
+    list-style: 140%;
+    margin-bottom: 15px;
+}
+.wlcmeddical_contant_pera{
+    font-size: 16px;
+    font-weight: 400;
+    color: #212124;;
+    list-style: 140%;
+}
+.wlcmeddical_contant_link_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    margin-top: 32px;
+}
+.wlcmeddical_contant_link{
+    font-size: 18px;
+    font-weight: 600;
+    color: #159EEC;
+    text-transform: capitalize;
+}
+.wlcmeddical_contant_link_icon{
+    font-size: 18px;
+    color: #1F2B6C;
+}
+.wlcmeddical_baner_image_box{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    margin-top: 61px;
+}
+.wlcmeddical_baner_image_box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
