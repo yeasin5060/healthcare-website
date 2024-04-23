@@ -1,0 +1,16 @@
+.learn_more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+.learn_more_link{
+    font-size: 18px;
+    font-weight: 600;
+    color: #159EEC;
+    text-transform: capitalize;
+}
+.learn_more_icon{
+    font-size: 18px;
+    color: #1F2B6C;
+}
