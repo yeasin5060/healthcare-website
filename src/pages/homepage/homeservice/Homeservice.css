@@ -24,3 +24,45 @@
     list-style: 140%;
     margin-bottom: 15px;
 }
+.medical_testing_contant_box_flex{
+    width: 177px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #BFD2F8;
+    border-radius: 5px;
+}
+.medical_testing_box{
+    width: 100%;
+    padding: 25px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    text-align: center;
+    transition: all linear 0.3s;
+}
+.medical_testing_box:hover{
+    background: #1F2B6C;
+}
+.medical_testing_icon_box{
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    margin: 0 auto;
+    font-size: 30px;
+    color: #159EEC;
+    transition: all linear 0.3s;
+}
+.medical_testing_box:hover .medical_testing_icon_box{
+    color: #fff;
+}
+.medical_testing_box_pera{
+    font-size: 16px;
+    font-weight: 500;
+    color: #212124;
+    text-transform: capitalize;
+    transition: all linear 0.3s;
+}
+.medical_testing_box:hover .medical_testing_box_pera{
+    color: #fff;
+}
