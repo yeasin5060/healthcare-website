@@ -1,0 +1,72 @@
+#specialties{
+    padding: 64px 0;
+    background: #fff;
+}
+.specialties_contant_box{
+    text-align: left;
+}
+.specialties_heading_contant_box{
+    text-align: center;
+}
+.specialties_contant_nenohead{
+    font-size: 20px;
+    font-weight: 600;
+    color: #159EEC;
+    text-transform: uppercase;
+    list-style: 140%;
+    margin-bottom: 8px;
+}
+.specialties_contant_heading{
+    font-size: 35px;
+    font-weight: 600;
+    color: #1F2B6C;
+    text-transform: uppercase;
+    list-style: 140%;
+    margin-bottom: 15px; 
+}
+.specialties_care_box_flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 64px;
+}
+.specialties_care_box{
+    width: 25%;
+    padding: 50px 100px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 8px;
+    text-align: center;
+    transition: all linear 0.3s;
+    cursor: pointer; 
+}
+.specialties_care_box:hover{
+    background: #1F2B6C;
+}
+.specialties_care_icon_box{
+    width: 50px;
+    height: 44px;
+    overflow: hidden;
+    margin: 0 auto;
+    font-size: 30px;
+    color: #159EEC;
+    transition: all linear 0.3s;
+}
+.specialties_care_box:hover .specialties_care_icon_box{
+    color: #fff;
+}
+.specialties_care_box_pera{
+    font-size: 16px;
+    font-weight: 500;
+    color: #212124;
+    text-transform: capitalize;
+    transition: all linear 0.3s;
+}
+.specialties_care_box:hover .specialties_care_box_pera{
+    color: #fff;
+}
