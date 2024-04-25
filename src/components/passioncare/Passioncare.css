@@ -1,0 +1,12 @@
+.passioncare_box_flex{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    column-gap: 5px;
+}
+.passioncare_round{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background:#159EEC;
+}

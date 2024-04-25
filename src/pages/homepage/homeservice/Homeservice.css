@@ -24,6 +24,13 @@
     list-style: 140%;
     margin-bottom: 15px;
 }
+.homeservice_medical_contant_box_flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    margin-top: 64px;
+}
 .medical_testing_contant_box_flex{
     width: 177px;
     display: flex;
@@ -65,4 +72,52 @@
 }
 .medical_testing_box:hover .medical_testing_box_pera{
     color: #fff;
+}
+.homeservice_passion_contant_box{
+    text-align: left;
+    margin-top: 27px;
+}
+.homeservice_passion_contant_box_nanohead{
+    font-size: 22px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 150%;
+}
+.homeservice_passion_care_box_flex{
+    margin-top: 24px;
+    display: flex;
+    justify-content: left;
+    column-gap: 40px;
+}
+.homeservice_passion_care_box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.homeservice_passion_health_care{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+.homeservice_passion_health_car_pera{
+    margin-top: 32px;
+    width: 470px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+.homeservice_passion_image_box_flex{
+    display: flex;
+    flex-direction: column;
+    row-gap: 21px;
+}
+.homeservice_passion_image_box{
+    width: 324px;
+    height: 231px;
+    overflow: hidden;
+}
+.homeservice_passion_image_box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
