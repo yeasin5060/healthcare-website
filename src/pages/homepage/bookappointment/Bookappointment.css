@@ -1,0 +1,28 @@
+#book_appointment{
+    padding: 64px 0;
+    background: #fff;
+}
+.book_appointment_contant_box_flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 93px;
+}
+.book_appointment_contant_box{
+    text-align: left;
+}
+.book_appointment_contant_head{
+    font-size: 35px;
+    font-weight: 600;
+    color: #159EEC;
+    text-transform: uppercase;
+    list-style: 140%;
+    margin-bottom: 16px;
+}
+.book_appointment_contant_pera{
+    width: 407px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #212124;
+    line-height: 140%;
+}
