@@ -1,6 +1,6 @@
 #book_appointment{
     padding: 64px 0;
-    background: #fff;
+    background: #c3cccc71;
 }
 .book_appointment_contant_box_flex{
     display: flex;
@@ -25,4 +25,64 @@
     font-weight: 500;
     color: #212124;
     line-height: 140%;
+}
+.book_appointment_form_box{
+    width: 491px;
+    background: #1F2B6C;
+}
+.book_appointment_form_container_box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.book_appointment_input_container{
+    width: 50%;
+}
+.book_appointment_input_box{
+    width: 100%;
+}
+.book_appointment_inputs{
+    width: 100%;
+    padding: 15px 30px;
+    background: transparent;
+    outline: none;
+    color: #FCFEFE;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.book_appointment_textarea_box{
+    width: 100%;
+    height: 190px;
+}
+.book_appointment_textarea{
+    width: 100%;
+    height: 100%;
+    padding: 15px 30px;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #FCFEFE;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.book_appointment_form_btn_box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.book_appointment_form_btn{
+    width: 100%;
+    padding: 15px 0;
+    background: #BFD2F8;
+    outline: none;
+    border: none;
+    color: #1F2B6C;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
 }
