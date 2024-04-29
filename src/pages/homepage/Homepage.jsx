@@ -5,6 +5,7 @@ import Wlcmeddical from './wlcmeddical/Wlcmeddical'
 import Homeservice from './homeservice/Homeservice'
 import Specialties from './specialties/Specialties'
 import Bookappointment from './bookappointment/Bookappointment'
+import Ourdoctor from './ourdoctor/Ourdoctor'
 
 const Homepage = () => {
   return (
@@ -15,6 +16,7 @@ const Homepage = () => {
       <Homeservice/>
       <Specialties/>
       <Bookappointment/>
+      <Ourdoctor/>
    </>
   )
 }

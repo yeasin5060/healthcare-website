@@ -2,9 +2,13 @@
     width: 400px;
     cursor: pointer;
 }
+.doctorprofile_contant_box{
+    background: #BFD2F8;
+    padding: 24px 0;
+}
 .doctorprofile_image_box{
     width: 100%;
-    height: 350px;
+    height: 450px;
     overflow: hidden;
 }
 .doctorprofile_image_box img{
@@ -18,6 +22,7 @@
     align-items: center;
     justify-content: center;
     column-gap: 20px;
+    margin-top: 16px;
 }
 .doctorprofile_icon_box{
     width: 24px;
@@ -43,6 +48,7 @@
 .doctorprofile_btn{
     font-size: 18px;
     font-weight: 700;
+    width: 100%;
     color: #BFD2F8;
     background: #1F2B6C;
     padding: 12px 0;
