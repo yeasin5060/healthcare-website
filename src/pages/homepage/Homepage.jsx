@@ -6,6 +6,7 @@ import Homeservice from './homeservice/Homeservice'
 import Specialties from './specialties/Specialties'
 import Bookappointment from './bookappointment/Bookappointment'
 import Ourdoctor from './ourdoctor/Ourdoctor'
+import Homenews from './homenews/Homenews'
 
 const Homepage = () => {
   return (
@@ -17,6 +18,7 @@ const Homepage = () => {
       <Specialties/>
       <Bookappointment/>
       <Ourdoctor/>
+      <Homenews/>
    </>
   )
 }
