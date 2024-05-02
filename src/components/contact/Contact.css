@@ -1,0 +1,51 @@
+.contact_box{
+    width: 300px;
+    padding: 56px 56px 56px 26px;
+    background: #BFD2F8;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+.contact_box:hover{
+    background: #1F2B6C;
+}
+.lacation_icon_box{
+    text-align: left;
+    font-size: 40px;
+    font-weight: 400;
+    color: #1F2B6C;
+    transition: all linear 0.3s;
+}
+.contact_box:hover .lacation_icon_box{
+    color: #BFD2F8;
+}
+.contact_box:hover .contant_head{
+    color: #BFD2F8;
+}
+.contact_box:hover .contant_pera{
+    color: #BFD2F8;
+}
+.contact_box:hover .contant_pera_two{
+    color: #BFD2F8;
+}
+.contant_head{
+    font-size: 24px;
+    font-weight: 700;
+    color: #1F2B6C;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    transition: all linear 0.3s;
+}
+.contant_pera{
+    font-size: 18px;
+    font-weight: 500;
+    color: #1F2B6C;
+    margin-top: 5px;
+    transition: all linear 0.3s;
+}
+.contant_pera_two{
+    font-size: 18px;
+    font-weight: 500;
+    color: #1F2B6C;
+    transition: all linear 0.3s;
+}

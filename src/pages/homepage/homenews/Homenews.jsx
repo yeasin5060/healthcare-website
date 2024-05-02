@@ -12,9 +12,9 @@ const Homenews = () => {
     <section id='homenews'>
         <div className='container'>
             <div className='homenews_content_box'>
-                <div className='home_heading_contant_box'>
-                    <Nanoheading text="Always Caring" style="home_contant_nenohead"/>
-                    <Subheading text="Our Specialties" style="home_contant_heading"/>
+                <div className='homenews_heading_contant_box'>
+                    <Nanoheading text="Better information, Better health" style="homenews_contant_nenohead"/>
+                    <Subheading text="News" style="homenews_contant_heading"/>
                 </div>
                 <div className='homenews_box_flex'>
                     <Checkupnews img={image} text="Monday 05, September 2021 | By Author" style="homenews_date" nanohead="This Article's Title goes Here, but not too long." nanostyle="homenews_artical"icone={<IoEyeOutline />} iconl={<FaRegHeart />}/>

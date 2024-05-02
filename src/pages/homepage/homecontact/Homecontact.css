@@ -1,14 +1,14 @@
-#homenews{
+#homecontact{
     padding: 64px 0;
     background: #fff;
 }
-.homenews_content_box{
+.homecontact_contact_wrapper{
     text-align: left;
 }
-.homenews_heading_contant_box{
+.home_contact_heading_box{
     text-align: center;
 }
-.homenews_contant_nenohead{
+.homecontant_nenohead{
     font-size: 20px;
     font-weight: 600;
     color: #159EEC;
@@ -16,7 +16,7 @@
     list-style: 140%;
     margin-bottom: 8px;
 }
-.homenews_contant_heading{
+.homecontant_heading{
     font-size: 35px;
     font-weight: 600;
     color: #1F2B6C;
@@ -24,27 +24,11 @@
     list-style: 140%;
     margin-bottom: 15px;
 }
-.homenews_box_flex{
+.home_contact_location_box_flex{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     column-gap: 20px;
     margin-top: 64px;
-}
-.homenews_date{
-    width: 273px;
-    font-size: 14px;
-    font-weight: 400;
-    color: #159EEC;
-    line-height: 150%;
-    text-transform: capitalize;
-}
-.homenews_artical{
-    width: 270px;
-    font-size: 18px;
-    font-weight: 500;
-    color: #212124;
-    line-height: 150%;
-    margin-top: 8px;
 }

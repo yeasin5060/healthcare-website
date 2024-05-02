@@ -7,6 +7,7 @@ import Specialties from './specialties/Specialties'
 import Bookappointment from './bookappointment/Bookappointment'
 import Ourdoctor from './ourdoctor/Ourdoctor'
 import Homenews from './homenews/Homenews'
+import Homecontact from './homecontact/Homecontact'
 
 const Homepage = () => {
   return (
@@ -19,6 +20,7 @@ const Homepage = () => {
       <Bookappointment/>
       <Ourdoctor/>
       <Homenews/>
+      <Homecontact/>
    </>
   )
 }
