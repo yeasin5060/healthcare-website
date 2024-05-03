@@ -1,8 +1,11 @@
 import React from 'react'
+import Aboutbaner from './aboutbaner/Aboutbaner'
 
 const Aboutpage = () => {
   return (
-    <div>Aboutpage</div>
+    <>
+    <Aboutbaner/>
+    </>
   )
 }
 

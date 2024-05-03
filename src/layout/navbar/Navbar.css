@@ -21,9 +21,13 @@
 .navbar_link_box_flex li a{
     font-size: 18px;
     font-weight: 600;
-    color: #fff;
+    color: #ffffffd0;
     text-transform: capitalize;
     cursor: pointer;
+    transition: all linear 0.3s;
+}
+.navbar_link_box_flex li a:hover{
+    color: #fff;
 }
 .navbar_btn_box{
     display: flex;
