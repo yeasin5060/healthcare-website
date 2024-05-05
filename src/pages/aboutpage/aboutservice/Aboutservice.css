@@ -1,0 +1,65 @@
+#aboutservice{
+    padding: 64px 0;
+    background: #fff;
+}
+.aboutservice_contant_wrapper{
+    text-align: left;
+}
+.aboutservice_medical_contant_box_flex{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+.aboutservice_passion_image_box{
+    width: 500px;
+    height: 600px;
+    overflow: hidden;
+}
+.aboutservice_passion_image_box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.aboutservice_passion_contant_box{
+    text-align: left;
+}
+.aboutservice_passion_contant_box_nanohead{
+    font-size: 20px;
+    font-weight: 600;
+    color: #159EEC;
+    text-transform: uppercase;
+    list-style: 140%;
+    margin-bottom: 8px;
+}
+.aboutservice_passion_contant_box_head{
+    width: 519px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #1F2B6C;
+    line-height: 150%;
+    margin-bottom: 15px;
+}
+.aboutservice_passion_care_box_flex{
+    margin-top: 24px;
+    display: flex;
+    justify-content: left;
+    column-gap: 40px;
+}
+.aboutservice_passion_care_box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.aboutservice_passion_health_care{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+.aboutservice_passion_health_car_pera{
+    margin-top: 32px;
+    width: 470px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
