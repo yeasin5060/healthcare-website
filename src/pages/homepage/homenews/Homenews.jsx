@@ -1,11 +1,11 @@
 import React from 'react'
 import Nanoheading from '../../../utilities/nanohead/Nanoheading'
 import Subheading from '../../../utilities/subheading/Subheading'
+import Checkupnews from '../../../components/checkupnews/Checkupnews'
 import image from '../../../images/checkupimage.png'
 import { FaRegHeart } from "react-icons/fa";
 import { IoEyeOutline } from "react-icons/io5";
 import './Homenews.css'
-import Checkupnews from '../../../components/checkupnews/Checkupnews'
 
 const Homenews = () => {
   return (

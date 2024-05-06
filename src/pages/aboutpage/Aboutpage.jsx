@@ -3,6 +3,7 @@ import Aboutbaner from './aboutbaner/Aboutbaner'
 import Aboutservice from './aboutservice/Aboutservice'
 import Aboutbanertwo from './aboutbanertwo/Aboutbanertwo'
 import Aboutourdoc from './aboutourdoc/Aboutourdoc'
+import Aboutnews from './aboutnews/Aboutnews'
 
 const Aboutpage = () => {
   return (
@@ -11,6 +12,7 @@ const Aboutpage = () => {
       <Aboutservice/>
       <Aboutbanertwo/>
       <Aboutourdoc/>
+      <Aboutnews/>
     </>
   )
 }
