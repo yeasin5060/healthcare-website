@@ -1,14 +1,14 @@
-#Aboutnews{
+#aboutnews{
     padding: 64px 0;
     background: #fff;
 }
-.Aboutnews_content_box{
+.aboutnews_content_box{
     text-align: left;
 }
-.Aboutnews_heading_contant_box{
+.aboutnews_heading_contant_box{
     text-align: center;
 }
-.Aboutnews_contant_nenohead{
+.aboutnews_contant_nenohead{
     font-size: 20px;
     font-weight: 600;
     color: #159EEC;
@@ -16,7 +16,7 @@
     list-style: 140%;
     margin-bottom: 8px;
 }
-.Aboutnews_contant_heading{
+.aboutnews_contant_heading{
     font-size: 35px;
     font-weight: 600;
     color: #1F2B6C;
@@ -24,7 +24,7 @@
     list-style: 140%;
     margin-bottom: 15px;
 }
-.Aboutnews_box_flex{
+.aboutnews_box_flex{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,7 +32,7 @@
     column-gap: 20px;
     margin-top: 64px;
 }
-.Aboutnews_date{
+.aboutnews_date{
     width: 273px;
     font-size: 14px;
     font-weight: 400;
@@ -40,7 +40,7 @@
     line-height: 150%;
     text-transform: capitalize;
 }
-.Aboutnews_artical{
+.aboutnews_artical{
     width: 270px;
     font-size: 18px;
     font-weight: 500;
