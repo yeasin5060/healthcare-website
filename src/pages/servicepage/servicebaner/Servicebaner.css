@@ -1,0 +1,45 @@
+#servicebaner{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+#servicebaner::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #BFD2F8;
+    left: 0;
+    top: 0;
+    opacity: 0.5;
+    z-index: 11;
+}
+#servicebaner img{ 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#servicebaner .container{
+    position: relative;
+    z-index: 111;
+    top: -300px;
+}
+.servicebaner_contant_wrapper{
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+.servicebaner_contant_nanohead{
+    font-size: 16px;
+    font-weight: 600;
+    color: #1F2B6C;
+    text-transform: capitalize;
+    line-height: 140%;
+}
+.servicebaner_contant_head{
+    width: 519px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #1F2B6C;
+    line-height: 150%;
+}
