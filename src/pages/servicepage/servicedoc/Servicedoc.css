@@ -1,0 +1,25 @@
+#servicedoc{
+    padding: 64px;
+    background: #fff;
+}
+.servicedoc_contant_wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.servicedoc_head{
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #1F2B6C;
+    line-height: 140%;
+    margin-bottom: 8px;
+}
+.servicedoc_pera{
+    font-size: 16px;
+    font-weight: 400;
+    color: #212124;
+    line-height: 140%;
+    margin-bottom: 16px;
+}

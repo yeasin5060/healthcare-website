@@ -1,0 +1,21 @@
+.doctor_cart{
+    width: 400px;
+    background: #8682826b;
+    border-radius: 8px;
+}
+.doc-image-box{
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.doc-image-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.doc_contant_box{
+    margin-top: 20px;
+    padding: 20px;
+}
