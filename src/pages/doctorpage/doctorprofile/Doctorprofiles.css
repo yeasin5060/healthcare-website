@@ -1,14 +1,14 @@
-#aboutourdoc{
+#doctorprofiles{
     padding: 64px 0;
     background: #fff;
 }
-.aboutourdoc_contant_wrapper{
+.doctorprofiles_contant_wrapper{
     text-align: center;
 }
-.aboutourdoc_heading_contant_box{
+.doctorprofiles_heading_contant_box{
     text-align: center;
 }
-.aboutourdoc_contant_nenohead{
+.doctorprofiles_contant_nenohead{
     font-size: 20px;
     font-weight: 600;
     color: #159EEC;
@@ -16,7 +16,7 @@
     list-style: 140%;
     margin-bottom: 8px;
 }
-.aboutourdoc_contant_heading{
+.doctorprofiles_contant_heading{
     font-size: 35px;
     font-weight: 600;
     color: #1F2B6C;
@@ -24,7 +24,7 @@
     list-style: 140%;
     margin-bottom: 15px; 
 }
-.aboutourdoc_card_box_flex{
+.doctorprofiles_card_box_flex{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -32,14 +32,14 @@
     row-gap: 21px;
     margin-top: 64px;
 }
-.aboutourdoc_card_pera{
+.doctorprofiles_card_pera{
     font-size: 20px;
     font-weight: 400;
     color: #1F2B6C;
     text-transform: capitalize;
     margin-bottom: 8px;
 }
-.aboutourdoc_card_head{
+.doctorprofiles_card_head{
     font-size: 20px;
     font-weight: 600;
     color: #1F2B6C;

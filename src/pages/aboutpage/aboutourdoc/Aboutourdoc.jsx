@@ -10,17 +10,17 @@ import './Aboutourdoc.css'
 
 const Aboutourdoc = () => {
   return (
-    <section id='Aboutourdoc'>
+    <section id='aboutourdoc'>
         <div className='container'>
-            <div className='Aboutourdoc_contant_wrapper'>
-                <div className='Aboutourdoc_heading_contant_box'>
-                    <Nanoheading text="Trusted Care" style="Aboutourdoc_contant_nenohead"/>
-                    <Subheading text="Our Doctors" style="Aboutourdoc_contant_heading"/>
+            <div className='aboutourdoc_contant_wrapper'>
+                <div className='aboutourdoc_heading_contant_box'>
+                    <Nanoheading text="Trusted Care" style="aboutourdoc_contant_nenohead"/>
+                    <Subheading text="Our Doctors" style="aboutourdoc_contant_heading"/>
                 </div>
-                <div className='Aboutourdoc_card_box_flex'>
-                    <Doctorprofile image={imageone} peratext="Doctor’s Name" perastyle="Aboutourdoc_card_pera" headtext="Neurology" headstyle="Aboutourdoc_card_head"/>
-                    <Doctorprofile image={imagetwo} peratext="Doctor’s Name" perastyle="Aboutourdoc_card_pera" headtext="Neurology" headstyle="Aboutourdoc_card_head"/>
-                    <Doctorprofile image={imagethree} peratext="Doctor’s Name" perastyle="Aboutourdoc_card_pera" headtext="Neurology" headstyle="Aboutourdoc_card_head"/>
+                <div className='aboutourdoc_card_box_flex'>
+                    <Doctorprofile image={imageone} peratext="Doctor’s Name" perastyle="aboutourdoc_card_pera" headtext="Neurology" headstyle="aboutourdoc_card_head"/>
+                    <Doctorprofile image={imagetwo} peratext="Doctor’s Name" perastyle="aboutourdoc_card_pera" headtext="Neurology" headstyle="aboutourdoc_card_head"/>
+                    <Doctorprofile image={imagethree} peratext="Doctor’s Name" perastyle="aboutourdoc_card_pera" headtext="Neurology" headstyle="aboutourdoc_card_head"/>
                 </div>
             </div>
         </div>
