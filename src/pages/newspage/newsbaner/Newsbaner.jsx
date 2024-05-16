@@ -11,7 +11,7 @@ const Newsbaner = () => {
         <div className='container'>
             <div className='newsbaner_contant_wrapper'>
                 <Nanoheading text="Home / About" style="newsbaner_contant_nanohead"/>
-                <Heading text="Our Doctors" style= "newsbaner_contant_head"/>
+                <Heading text="Blog Posts" style= "newsbaner_contant_head"/>
             </div>
         </div>
     </section>
