@@ -7,7 +7,8 @@ import { FaRegHeart } from "react-icons/fa";
 import imgone from '../../../images/aboutimageone.png';
 import imgtwo from '../../../images/checkupimage.png';
 import imgthree from '../../../images/newsimgthree.png';
-import imgfour from '../../../images/newsimgfour.png'
+import imgfour from '../../../images/newsimgfour.png';
+import Rechentpostcard from '../../../components/recentpostcard/Rechentpostcard';
 import './Newsdocprofile.css';
 
 const Newsdocprofile = () => {
@@ -22,7 +23,7 @@ const Newsdocprofile = () => {
                     <Doctorbanercard img={imgfour} headtext='A passion for putting patients first' peratext='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare. Quisque placerat scelerisque tortor ornare ornare Convallis felis vitae tortor augue. Velit nascetur proin massa in. Consequat faucibus porttitor enim et....' linktext='Read More' link='#' dateicon={<MdDateRange />} authoricon={<MdAccountBox />} eyeicon={<IoIosEye />} loveicon={<FaRegHeart />} checkupdata ='Monday 05, September 2021' author ='By Author' view='500' love='1000'/>
                 </div>
                 <div className='newsdocprofile-recent-post-box'>
-
+                    <Rechentpostcard/>
                 </div>
             </div>
         </div>

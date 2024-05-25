@@ -2,3 +2,11 @@
     background: #fff;
     padding: 64px 0;
 }
+.newsdocprofile-contant-box-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.newsdocprofile-recent-post-box{
+    width: 400px;
+    background: #fff;
+}
