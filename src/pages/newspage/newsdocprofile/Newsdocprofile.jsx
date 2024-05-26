@@ -10,6 +10,7 @@ import imgthree from '../../../images/newsimgthree.png';
 import imgfour from '../../../images/newsimgfour.png';
 import Rechentpostcard from '../../../components/recentpostcard/Rechentpostcard';
 import './Newsdocprofile.css';
+import Categoriescard from '../../../components/categoriescard/Categoriescard';
 
 const Newsdocprofile = () => {
   return (
@@ -24,6 +25,7 @@ const Newsdocprofile = () => {
                 </div>
                 <div className='newsdocprofile-recent-post-box'>
                     <Rechentpostcard/>
+                    <Categoriescard/>
                 </div>
             </div>
         </div>

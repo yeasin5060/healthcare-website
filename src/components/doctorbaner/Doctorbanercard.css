@@ -63,6 +63,7 @@
     display: flex;
     align-items: center;
     justify-content: left;
+    cursor: pointer;
 }
 .doctorbanercard-love-icon-box{
     font-size: 20px;
@@ -70,6 +71,7 @@
     display: flex;
     align-items: center;
     justify-content: left;
+    cursor: pointer;
 }
 .doctorbanercard-data-contant{
     font-size: 14px;
@@ -85,11 +87,13 @@
     font-size: 14px;
     font-weight: 400;
     color: #000;
+    cursor: pointer;
 }
 .doctorbanercard-love-icon-contant{
     font-size: 14px;
     font-weight: 400;
     color: #000;
+    cursor: pointer;
 }
 .doctorbanercard-header-box{
     margin-top: 10px;
