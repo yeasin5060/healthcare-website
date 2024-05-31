@@ -12,6 +12,7 @@ import Servicepage from './pages/servicepage/Servicepage';
 import Doctorpage from './pages/doctorpage/Doctorpage';
 import Newspage from './pages/newspage/Newspage';
 import Contacts from './pages/contact/Contacts';
+import Appointments from './pages/appointment/Appointments';
 
 function App() {
   const router = createBrowserRouter(
@@ -23,6 +24,7 @@ function App() {
         <Route path='/doctor' element = {<Doctorpage/>}/>
         <Route path='/news' element = {<Newspage/>}/>
         <Route path='/contact' element = {<Contacts/>}/>
+        <Route path='/appointment' element = {<Appointments/>}/>
       </Route>
     )
   );

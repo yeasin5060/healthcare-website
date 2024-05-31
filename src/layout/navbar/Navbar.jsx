@@ -32,7 +32,7 @@ const Navbar = () => {
                 </div>
                 <div className='navbar_btn_box'>
                     <IoSearch className='navbar_search_icon'/>
-                    <Link to ="contact">Appointment</Link>
+                    <Link to ="appointment">Appointment</Link>
                 </div>
             </div>
         </div>
