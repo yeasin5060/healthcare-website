@@ -1,13 +1,13 @@
-#contact-location{
+#contact_location{
     padding: 64px;
     background: #fff;
 }
-.contact-location-box{
+.contact_location_box{
     width: 100%;
     height: 700px;
     overflow: hidden;
 }
-.contact-location-box iframe{
+.contact_location_box iframe{
     width: 100%;
     height: 100%;
     object-fit: cover;
