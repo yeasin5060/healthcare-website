@@ -11,6 +11,7 @@ import Mains from './layout/main/Mains';
 import Servicepage from './pages/servicepage/Servicepage';
 import Doctorpage from './pages/doctorpage/Doctorpage';
 import Newspage from './pages/newspage/Newspage';
+import Contacts from './pages/contact/Contacts';
 
 function App() {
   const router = createBrowserRouter(
@@ -21,6 +22,7 @@ function App() {
         <Route path='/service' element = {<Servicepage/>}/>
         <Route path='/doctor' element = {<Doctorpage/>}/>
         <Route path='/news' element = {<Newspage/>}/>
+        <Route path='/contact' element = {<Contacts/>}/>
       </Route>
     )
   );
