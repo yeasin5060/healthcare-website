@@ -6,18 +6,18 @@ import { BiPhoneCall } from "react-icons/bi";
 import { IoLocationOutline } from "react-icons/io5";
 import { CiMail } from "react-icons/ci";
 import { FaRegClock } from "react-icons/fa";
-import './Doctorcontact.css';
+import './Appointmentcontact.css'
 
-const Doctorcontact = () => {
+const Appointmentcontact = () => {
   return (
-    <section id='doctorcontact'>
+    <section id='appointmentcontact'>
         <div className='container'>
-            <div className='doctorcontact_contact_wrapper'>
-                <div className='doctorcontact_heading_box'>
-                    <Nanoheading text="Get in touch" style="doctorcontact_nenohead"/>
-                    <Subheading text="Contact" style="doctorcontact_heading"/>
+            <div className='appointmentcontact_contact_wrapper'>
+                <div className='appointmentcontact_heading_box'>
+                    <Nanoheading text="Get in touch" style="appointmentcontact_nenohead"/>
+                    <Subheading text="Contact" style="appointmentcontact_heading"/>
                 </div>
-                <div className='doctorcontact_location_box_flex'>
+                <div className='appointmentcontact_location_box_flex'>
                     <Contant headtext="Emergency" contact="(237) 681-812-255" contacttwo="(237) 666-331-894" icon={<BiPhoneCall />}/>
                     <Contant headtext="Location" contact="0123 Some place" contacttwo="9876 Some country" icon={<IoLocationOutline />}/>
                     <Contant headtext="Email" contact="fildineeesoe@gmil.com" contacttwo="myebstudios@gmail.com" icon={<CiMail />}/>
@@ -29,4 +29,4 @@ const Doctorcontact = () => {
   )
 }
 
-export default Doctorcontact
+export default Appointmentcontact

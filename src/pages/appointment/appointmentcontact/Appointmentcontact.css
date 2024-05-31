@@ -1,14 +1,14 @@
-#doctorcontact{
+#appointmentcontact{
     padding: 64px 0;
     background: #fff;
 }
-.doctorcontact_contact_wrapper{
+.appointmentcontact_contact_wrapper{
     text-align: left;
 }
-.doctorcontact_heading_box{
+.appointmentcontact_heading_box{
     text-align: center;
 }
-.doctorcontact_nenohead{
+.appointmentcontact_nenohead{
     font-size: 20px;
     font-weight: 600;
     color: #159EEC;
@@ -17,7 +17,7 @@
     margin-bottom: 8px;
     letter-spacing: 2px;
 }
-.doctorcontact_heading{
+.appointmentcontact_heading{
     font-size: 35px;
     font-weight: 600;
     color: #1F2B6C;
@@ -25,7 +25,7 @@
     list-style: 140%;
     margin-bottom: 15px;
 }
-.doctorcontact_location_box_flex{
+.appointmentcontact_location_box_flex{
     display: flex;
     justify-content: space-between;
     align-items: center;
