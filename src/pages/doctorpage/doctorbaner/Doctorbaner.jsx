@@ -10,7 +10,7 @@ const Doctorbaner = () => {
       <img src={image} alt="not found" />
         <div className='container'>
             <div className='doctorbaner_contant_wrapper'>
-                <Nanoheading text="Home / About" style="doctorbaner_contant_nanohead"/>
+                <Nanoheading text="Home /Doctor" style="doctorbaner_contant_nanohead"/>
                 <Heading text="Our Doctors" style= "doctorbaner_contant_head"/>
             </div>
         </div>

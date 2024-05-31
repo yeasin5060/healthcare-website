@@ -8,9 +8,9 @@ const Newsbaner = () => {
   return (
     <section id="newsbaner">
       <img src={banerimage} alt="not found" />
-        <div className='container'>
-            <div className='newsbaner_contant_wrapper'>
-                <Nanoheading text="Home / About" style="newsbaner_contant_nanohead"/>
+        <div className="container">
+            <div className="newsbaner_contant_wrapper">
+                <Nanoheading text="Home / News" style="newsbaner_contant_nanohead"/>
                 <Heading text="Blog Posts" style= "newsbaner_contant_head"/>
             </div>
         </div>

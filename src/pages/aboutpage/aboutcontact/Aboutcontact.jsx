@@ -1,12 +1,12 @@
 import React from 'react'
-import Nanoheading from '../../../utilities/nanohead/Nanoheading'
-import Subheading from '../../../utilities/subheading/Subheading'
-import Contant from '../../../components/contact/Contant'
+import Nanoheading from '../../../utilities/nanohead/Nanoheading';
+import Subheading from '../../../utilities/subheading/Subheading';
+import Contant from '../../../components/contact/Contant';
 import { BiPhoneCall } from "react-icons/bi";
 import { IoLocationOutline } from "react-icons/io5";
 import { CiMail } from "react-icons/ci";
 import { FaRegClock } from "react-icons/fa";
-import './Aboutcontact.css'
+import './Aboutcontact.css';
 
 const Aboutcontact = () => {
   return (

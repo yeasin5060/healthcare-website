@@ -9,14 +9,14 @@ import './Doctornews.css'
 
 const Doctornews = () => {
   return (
-    <section id='doctornews'>
-        <div className='container'>
-            <div className='doctornews_content_box'>
-                <div className='doctornews_heading_contant_box'>
+    <section id="doctornews">
+        <div className="container">
+            <div className="doctornews_content_box">
+                <div className="doctornews_heading_contant_box">
                     <Nanoheading text="Better information, Better health" style="doctornews_contant_nenohead"/>
                     <Subheading text="News" style="doctornews_contant_heading"/>
                 </div>
-                <div className='doctornews_box_flex'>
+                <div className="doctornews_box_flex">
                     <Checkupnews img={image} text="Monday 05, September 2021 | By Author" style="doctornews_date" nanohead="This Article's Title goes Here, but not too long." nanostyle="doctornews_artical"icone={<IoEyeOutline />} iconl={<FaRegHeart />}/>
                     <Checkupnews img={image} text="Monday 05, September 2021 | By Author" style="doctornews_date" nanohead="This Article's Title goes Here, but not too long." nanostyle="doctornews_artical" icone={<IoEyeOutline />} iconl={<FaRegHeart />}/>
                     <Checkupnews img={image} text="Monday 05, September 2021 | By Author" style="doctornews_date" nanohead="This Article's Title goes Here, but not too long." nanostyle="doctornews_artical" icone={<IoEyeOutline />} iconl={<FaRegHeart />}/>

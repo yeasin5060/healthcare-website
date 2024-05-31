@@ -1,9 +1,9 @@
 import React from 'react'
-import Pera from '../../../utilities/pera/Pera'
-import Nanoheading from '../../../utilities/nanohead/Nanoheading'
-import imageone from '../../../images/aboutimagetwo.png'
+import Pera from '../../../utilities/pera/Pera';
+import Nanoheading from '../../../utilities/nanohead/Nanoheading';
+import imageone from '../../../images/aboutimagetwo.png';
 import { FaQuoteLeft } from "react-icons/fa";
-import './Aboutbanertwo.css'
+import './Aboutbanertwo.css';
 
 const Aboutbanertwo = () => {
   return (

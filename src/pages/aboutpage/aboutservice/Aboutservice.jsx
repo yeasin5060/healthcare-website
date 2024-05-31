@@ -1,10 +1,10 @@
 import React from 'react'
-import Nanoheading from '../../../utilities/nanohead/Nanoheading'
-import Subheading from '../../../utilities/subheading/Subheading'
-import Passioncare from '../../../components/passioncare/Passioncare'
-import Pera from '../../../utilities/pera/Pera'
-import imageone from '../../../images/aboutimageone.png'
-import './Aboutservice.css'
+import Nanoheading from '../../../utilities/nanohead/Nanoheading';
+import Subheading from '../../../utilities/subheading/Subheading';
+import Passioncare from '../../../components/passioncare/Passioncare';
+import Pera from '../../../utilities/pera/Pera';
+import imageone from '../../../images/aboutimageone.png';
+import './Aboutservice.css';
 
 const Aboutservice = () => {
   return (

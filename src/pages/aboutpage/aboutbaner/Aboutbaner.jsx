@@ -1,8 +1,8 @@
 import React from 'react'
-import Nanoheading from '../../../utilities/nanohead/Nanoheading'
-import Heading from '../../../utilities/heading/Heading'
-import image from '../../../images/meddicalbaner.png'
-import './Aboutbaner.css'
+import Nanoheading from '../../../utilities/nanohead/Nanoheading';
+import Heading from '../../../utilities/heading/Heading';
+import image from '../../../images/meddicalbaner.png';
+import './Aboutbaner.css';
 
 const Aboutbaner = () => {
   return (

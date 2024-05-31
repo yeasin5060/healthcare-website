@@ -7,7 +7,7 @@ const Contactbaner = () => {
   return (
     <section id="contactbaner">
     <img src={banerimg} alt="not found" />
-      <div className='container'>
+      <div className="container">
           <div className='contactbaner_contant_wrapper'>
               <Nanoheading text="Home / Contact" style="contactbaner_contant_nanohead"/>
               <Heading text="Blog Posts" style= "contactbaner_contant_head"/>

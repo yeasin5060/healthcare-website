@@ -1,11 +1,11 @@
 import React from 'react'
-import Doctorprofile from '../../../components/doctorprofile/Doctorprofile'
-import imageone from '../../../images/docimageone.png'
-import imagetwo from '../../../images/docimagetwo.png'
-import imagethree from '../../../images/docimagethree.png'
-import Nanoheading from '../../../utilities/nanohead/Nanoheading'
-import Subheading from '../../../utilities/subheading/Subheading'
-import './Aboutourdoc.css'
+import Doctorprofile from '../../../components/doctorprofile/Doctorprofile';
+import imageone from '../../../images/docimageone.png';
+import imagetwo from '../../../images/docimagetwo.png';
+import imagethree from '../../../images/docimagethree.png';
+import Nanoheading from '../../../utilities/nanohead/Nanoheading';
+import Subheading from '../../../utilities/subheading/Subheading';
+import './Aboutourdoc.css';
 
 
 const Aboutourdoc = () => {

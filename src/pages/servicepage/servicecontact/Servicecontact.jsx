@@ -1,19 +1,19 @@
 import React from 'react'
-import Nanoheading from '../../../utilities/nanohead/Nanoheading'
-import Subheading from '../../../utilities/subheading/Subheading'
-import Contant from '../../../components/contact/Contant'
+import Nanoheading from '../../../utilities/nanohead/Nanoheading';
+import Subheading from '../../../utilities/subheading/Subheading';
+import Contant from '../../../components/contact/Contant';
 import { BiPhoneCall } from "react-icons/bi";
 import { IoLocationOutline } from "react-icons/io5";
 import { CiMail } from "react-icons/ci";
 import { FaRegClock } from "react-icons/fa";
-import './Servicecontact.css'
+import './Servicecontact.css';
 
 const Servicecontact = () => {
   return (
-    <section id='servicecontact'>
-    <div className='container'>
-        <div className='servicecontact_contact_wrapper'>
-            <div className='home_contact_heading_box'>
+    <section id="servicecontact">
+    <div className="container">
+        <div className="servicecontact_contact_wrapper">
+            <div className="home_contact_heading_box">
                 <Nanoheading text="Get in touch" style="servicecontact_nenohead"/>
                 <Subheading text="Contact" style="servicecontact_heading"/>
             </div>
