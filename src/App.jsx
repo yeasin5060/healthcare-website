@@ -13,18 +13,22 @@ import Doctorpage from './pages/doctorpage/Doctorpage';
 import Newspage from './pages/newspage/Newspage';
 import Contacts from './pages/contact/Contacts';
 import Appointments from './pages/appointment/Appointments';
+import Errorpage from './pages/errorpage/Errorpage';
 
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route element = {<Mains/>}>
-        <Route path='/' element = {<Homepage/>}/>
-        <Route path='/about' element = {<Aboutpage/>}/>
-        <Route path='/service' element = {<Servicepage/>}/>
-        <Route path='/doctor' element = {<Doctorpage/>}/>
-        <Route path='/news' element = {<Newspage/>}/>
-        <Route path='/contact' element = {<Contacts/>}/>
-        <Route path='/appointment' element = {<Appointments/>}/>
+      <Route>
+        <Route element = {<Mains/>}>
+          <Route path='/' element = {<Homepage/>}/>
+          <Route path='/about' element = {<Aboutpage/>}/>
+          <Route path='/service' element = {<Servicepage/>}/>
+          <Route path='/doctor' element = {<Doctorpage/>}/>
+          <Route path='/news' element = {<Newspage/>}/>
+          <Route path='/contact' element = {<Contacts/>}/>
+          <Route path='/appointment' element = {<Appointments/>}/>
+        </Route>
+        <Route path='*' element = {<Errorpage/>}/>
       </Route>
     )
   );
