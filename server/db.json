@@ -1,1 +1,10 @@
-{}
+{
+    "errordata" : [
+        {
+            "id" : 1,
+            "image" :"yeasin",
+            "notfound" : "opp! The page you requested was not found!",
+            "backhome" : "Back Home"
+        }
+    ]
+}
