@@ -9,8 +9,11 @@ export const docProfileSlice = createApi({
     endpoints : (builder)=>({
         errorpage : builder.query({
             query : ()=> "errordata"
+        }),
+        homebaner : builder.query({
+            query : ()=> "homebanardata"
         })
     })
 })
 
-export const {useErrorpageQuery} = docProfileSlice
+export const {useErrorpageQuery,useHomebanerQuery} = docProfileSlice

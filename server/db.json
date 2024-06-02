@@ -2,9 +2,18 @@
     "errordata" : [
         {
             "id" : 1,
-            "image" :"yeasin",
+            "image" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST_P9gLPYPerXMwgOV5NqHoa44F7pNegKUaw&s",
             "notfound" : "opp! The page you requested was not found!",
             "backhome" : "Back Home"
+        }
+    ],
+    "homebanardata" : [
+        {
+            "id" : 1 ,
+            "image" : "",
+            "nanohead" : "Caring For Life",
+            "head" : "Leading the Way in Medical Excellence",
+            "btn" : "Our Services"
         }
     ]
 }
