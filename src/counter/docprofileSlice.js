@@ -12,8 +12,14 @@ export const docProfileSlice = createApi({
         }),
         homebaner : builder.query({
             query : ()=> "homebanardata"
+        }),
+        hedardata : builder.query({
+            query : ()=> "hederdata"
+        }),
+        navroute : builder.query({
+            query : ()=> "navdata"
         })
     })
 })
 
-export const {useErrorpageQuery,useHomebanerQuery} = docProfileSlice
+export const {useErrorpageQuery,useHomebanerQuery,useHedardataQuery,useNavrouteQuery} = docProfileSlice

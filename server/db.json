@@ -15,5 +15,58 @@
             "head" : "Leading the Way in Medical Excellence",
             "btn" : "Our Services"
         }
+    ],
+    "hederdata" : [
+        {
+            "id" : 1 ,
+            "image" : "",
+            "contact" : "EMERGENCY",
+            "number" : "(237) 681-812-255"
+        },
+        {
+            "id" : 2 ,
+            "image" : "",
+            "contact" : "WORK HOUR",
+            "number" : "09:00 - 20:00 Everyday"
+        },
+        {
+            "id" : 3 ,
+            "image" : "",
+            "contact" : "LOCATION",
+            "number" : "0123 Some Place"
+        }
+    ],
+    "navdata" : [
+        {
+            "id" : 1,
+            "pagesname" : "Home",
+            "route" : "/"
+        },
+        {
+            "id" : 2,
+            "pagesname" : "About Us",
+            "route" : "about"
+        },
+        {
+            "id" :3 ,
+            "pagesname" : "Service",
+            "route" : "service"
+        },
+        {
+            "id" :4 ,
+            "pagesname" : "Doctors",
+            "route" : "doctor"
+        },
+        {
+            "id" :5 ,
+            "pagesname" : "News",
+            "route" : "news"
+        },
+        {
+            "id" : 6,
+            "pagesname" : "Contact",
+            "route" : "contact"
+        }
     ]
+
 }

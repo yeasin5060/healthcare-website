@@ -7,8 +7,11 @@ import { useHomebanerQuery } from '../../../counter/docprofileSlice'
 
 const Banar = () => {
               //home baner server data
-    const {data} = useHomebanerQuery()
-    console.log(data)
+    const {data,isLoading} = useHomebanerQuery()
+    let homeBenarData ;
+    if(isLoading){
+      homeBenarData = "loding..."
+    }
   return (
     <section id='home_banar'>
         <div className='container'>
