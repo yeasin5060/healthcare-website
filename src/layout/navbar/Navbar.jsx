@@ -6,7 +6,6 @@ import { useNavrouteQuery } from '../../counter/docprofileSlice';
 
 const Navbar = () => {
     const {data} = useNavrouteQuery()
-    console.log(data)
   return (
     <nav id='navbar'>
         <div className='container'>

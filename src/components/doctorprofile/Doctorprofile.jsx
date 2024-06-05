@@ -5,8 +5,9 @@ import Nanoheading from '../../utilities/nanohead/Nanoheading'
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
-const Doctorprofile = ({image ,peratext,perastyle,headtext ,headstyle }) => {
+const Doctorprofile = ({image ,peratext,perastyle,headtext ,headstyle,link }) => {
   return (
     <div className='doctorprofile_contant_wrapper'>
         <div className='doctorprofile_image_box'>
@@ -30,7 +31,7 @@ const Doctorprofile = ({image ,peratext,perastyle,headtext ,headstyle }) => {
             </div>
         </div>
         <div className='doctorprofile_btn_box'>
-            <button className='doctorprofile_btn'>View Profile</button>
+            <Link className='doctorprofile_btn' to = {link}>View Profile</Link>
         </div>
     </div>
   )

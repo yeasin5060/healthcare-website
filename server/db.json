@@ -19,7 +19,7 @@
     "hederdata" : [
         {
             "id" : 1 ,
-            "image" : "",
+            "image" : " <IoSearch/>",
             "contact" : "EMERGENCY",
             "number" : "(237) 681-812-255"
         },
@@ -77,6 +77,26 @@
             "route" : "/learn",
             "link" :"Learn More",
             "img" : "https://st2.depositphotos.com/1017986/5214/i/450/depositphotos_52140233-stock-photo-team-or-group-of-doctors.jpg"
+        }
+    ],
+    "homeourdocdata" : [
+        {
+            "id" : 1,
+            "image" : "https://t3.ftcdn.net/jpg/02/25/70/72/360_F_225707294_V0jKFrHm1Bm5mLQjTAhKFplaWQIgdHby.jpg",
+            "name" : "Doctor’s Name",
+            "profession" : "NEUROLOGY"
+        },
+        {
+            "id" : 2,
+            "image" : "https://static.vecteezy.com/system/resources/thumbnails/028/287/384/small/a-mature-indian-male-doctor-on-a-white-background-ai-generated-photo.jpg",
+            "name" : "Doctor’s Name",
+            "profession" : "NEUROLOGY"
+        },
+        {
+            "id" : 3,
+            "image" : "https://img.freepik.com/free-photo/beautiful-young-female-doctor-looking-camera-office_1301-7807.jpg",
+            "name" : "Doctor’s Name ",
+            "profession" : "NEUROLOGY"
         }
     ]
 

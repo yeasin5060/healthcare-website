@@ -21,8 +21,11 @@ export const docProfileSlice = createApi({
         }),
         homewcdata : builder.query({
             query : ()=> "homewellcomedata"
+        }),
+        homeourdocdata : builder.query({
+            query : () =>"homeourdocdata"
         })
     })
 })
 
-export const {useErrorpageQuery,useHomebanerQuery,useHedardataQuery,useNavrouteQuery,useHomewcdataQuery} = docProfileSlice
+export const {useErrorpageQuery,useHomebanerQuery,useHedardataQuery,useNavrouteQuery,useHomewcdataQuery,useHomeourdocdataQuery} = docProfileSlice
