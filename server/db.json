@@ -67,6 +67,17 @@
             "pagesname" : "Contact",
             "route" : "contact"
         }
+    ],
+    "homewellcomedata" : [
+        {
+            "id" : 1 ,
+            "nanohead" : "WELCOME TO MEDDICAL",
+            "head" : "A GREAT PLACE TO RECEIVE CARE",
+            "pera" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare. Convallis felis vitae tortor augue. Velit nascetur proin massa in. Consequat faucibus porttitor enim et.",
+            "route" : "/learn",
+            "link" :"Learn More",
+            "img" : "https://st2.depositphotos.com/1017986/5214/i/450/depositphotos_52140233-stock-photo-team-or-group-of-doctors.jpg"
+        }
     ]
 
 }

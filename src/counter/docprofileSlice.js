@@ -7,19 +7,22 @@ export const docProfileSlice = createApi({
         baseUrl : "http://localhost:3000/"
     }),
     endpoints : (builder)=>({
+        hedardata : builder.query({
+            query : ()=> "hederdata"
+        }),
+        navroute : builder.query({
+            query : ()=> "navdata"
+        }),
         errorpage : builder.query({
             query : ()=> "errordata"
         }),
         homebaner : builder.query({
             query : ()=> "homebanardata"
         }),
-        hedardata : builder.query({
-            query : ()=> "hederdata"
-        }),
-        navroute : builder.query({
-            query : ()=> "navdata"
+        homewcdata : builder.query({
+            query : ()=> "homewellcomedata"
         })
     })
 })
 
-export const {useErrorpageQuery,useHomebanerQuery,useHedardataQuery,useNavrouteQuery} = docProfileSlice
+export const {useErrorpageQuery,useHomebanerQuery,useHedardataQuery,useNavrouteQuery,useHomewcdataQuery} = docProfileSlice
