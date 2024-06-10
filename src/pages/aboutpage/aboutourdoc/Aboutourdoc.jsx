@@ -5,10 +5,12 @@ import imagetwo from '../../../images/docimagetwo.png';
 import imagethree from '../../../images/docimagethree.png';
 import Nanoheading from '../../../utilities/nanohead/Nanoheading';
 import Subheading from '../../../utilities/subheading/Subheading';
+import { useHomeourdocdataQuery } from '../../../counter/docprofileSlice';
 import './Aboutourdoc.css';
 
 
 const Aboutourdoc = () => {
+    const {data} = useHomeourdocdataQuery()
   return (
     <section id='aboutourdoc'>
         <div className='container'>
@@ -18,9 +20,12 @@ const Aboutourdoc = () => {
                     <Subheading text="Our Doctors" style="aboutourdoc_contant_heading"/>
                 </div>
                 <div className='aboutourdoc_card_box_flex'>
-                    <Doctorprofile image={imageone} peratext="Doctor’s Name" perastyle="aboutourdoc_card_pera" headtext="Neurology" headstyle="aboutourdoc_card_head"/>
-                    <Doctorprofile image={imagetwo} peratext="Doctor’s Name" perastyle="aboutourdoc_card_pera" headtext="Neurology" headstyle="aboutourdoc_card_head"/>
-                    <Doctorprofile image={imagethree} peratext="Doctor’s Name" perastyle="aboutourdoc_card_pera" headtext="Neurology" headstyle="aboutourdoc_card_head"/>
+                    {
+                        data &&
+                        data.map((item) => (
+                            <Doctorprofile key={item.id} image={item.image} peratext={item.name} perastyle="ourdoctor_card_pera" headtext={item.profession} headstyle="ourdoctor_card_head" link={item.id}/>
+                        ))
+                    }
                 </div>
             </div>
         </div>

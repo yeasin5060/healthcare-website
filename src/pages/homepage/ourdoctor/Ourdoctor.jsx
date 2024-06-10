@@ -10,7 +10,6 @@ import { useHomeourdocdataQuery } from '../../../counter/docprofileSlice'
 
 const Ourdoctor = () => {
     const {data} = useHomeourdocdataQuery()
-    console.log(data);
   return (
     <section id='ourdoctor'>
         <div className='container'>
